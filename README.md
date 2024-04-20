@@ -29,7 +29,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 
 ```
 source build/envsetup.sh
-lunch awaken_<devicecodename>-user
+lunch awaken_<devicecodename>-<release>-user
 make bacon -j$(nproc --all)
 ```
 
