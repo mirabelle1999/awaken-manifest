@@ -17,7 +17,7 @@ Prior to building, you will need basic knowledge of [Git](https://www.atlassian.
 1. Run the following commands to sync source
 
 ```
-repo init -u https://github.com/Project-Awaken/android_manifest -b ursa
+repo init -u https://github.com/mirabelle1999/awaken-manifest -b ursa
 ```
 2. To sync source, enter
 
@@ -29,7 +29,8 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 
 ```
 source build/envsetup.sh
-lunch awaken_<devicecodename>-user
+lunch awaken_topaz-user
+lunch awaken_topaz-userdebug
 make bacon -j$(nproc --all)
 ```
 
