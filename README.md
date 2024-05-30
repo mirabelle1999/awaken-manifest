@@ -30,11 +30,13 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 ```
 source build/envsetup.sh
 ```
-lunch awaken_topaz-user
 ```
+lunch awaken_topaz-user
 lunch awaken_topaz-userdebug
 ```
+```
 lunch awaken_topaz-ap1a-userdebug
+```
 ```
 make bacon -j$(nproc --all)
 ```
