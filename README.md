@@ -37,9 +37,14 @@ lunch awaken_topaz-userdebug
 ```
 lunch awaken_topaz-ap1a-userdebug
 ```
+For Clean Build:
+```
+m installclean
+```
 ```
 make bacon -j$(nproc --all)
 ```
+
 
 ### Compilation Help
 To get help with build errors, please visit [**Android Building Help**](https://t.me/AndroidBuildingHelp).
